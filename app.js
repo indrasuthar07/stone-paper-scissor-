@@ -13,19 +13,19 @@ return options[random];
 };
 
 const drawGame = ()=>{
-    msg.innerText ="Draw ho gya, Fir se khel Ch*tiye";
+    msg.innerText ="Match Draw 🤝";
     msg.style.backgroundColor = "#081b31";
 };
 const showwinner = (userwin, userchoice, compchoice) =>{
     if(userwin){
         userscore++;
         userscorepara.innerText = userscore;
-       msg.innerText ="Jeet gya Bh*sdivala";
+       msg.innerText ="You Won 👌!";
        msg.style.backgroundColor = "green";
     }else{
         compscore++;
         compscorepara.innerText = compscore;
-        msg.innerText ="Hug diya Madarch*d";
+        msg.innerText ="You Lose 😞";
         msg.style.backgroundColor = "red";
     }
 };
